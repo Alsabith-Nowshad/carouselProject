@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="main h-screen w-full bg-gray-500 flex flex-col justify-center  items-center">
+        <div class="image-box w-[60%] h-[70%] bg-green-500 object-cover flex items-center justify-center ">
+            <img class="img1 w-screen h-full " src="asset/img1.jpg" alt="">
+            <img class="img2 w-screen h-full hidden" src="asset/img2.jpg" alt="">
+            <img class="img3 w-screen h-full hidden" src="asset/img3.jpg" alt="">
+            
+        </div>
+        <div class="btns">
+        <button class="prev bg-yellow-500 px-3 py-2 rounded-xl mx-3 mt-5">Previous</button>
+        <button class="next bg-yellow-500 px-3 py-2 rounded-xl">Next</button>
+    </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
